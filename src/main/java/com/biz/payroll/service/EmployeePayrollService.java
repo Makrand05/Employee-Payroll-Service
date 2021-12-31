@@ -2,6 +2,7 @@ package com.biz.payroll.service;
 
 import com.biz.payroll.model.EmployeePayroll;
 
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -20,6 +21,9 @@ public class EmployeePayrollService {
 
         employeePayrollService.readDataFromConsole();
         employeePayrollService.printDataOnConsole();
+
+
+
     }
 
     private void printDataOnConsole() {
